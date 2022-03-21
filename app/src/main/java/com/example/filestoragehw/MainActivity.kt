@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun constructMessage(): String {
         val dir: String = Environment
-            .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
+            .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
             .toString()
         return "External files are stored at:\n$dir"
     }
